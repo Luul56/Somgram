@@ -1,0 +1,61 @@
+/* styles.css - Custom styling */
+.somgram-nav {
+    background: #17212b;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #2b3743;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    background: transparent;
+    border: none;
+    color: #8e9eae;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.nav-link.active {
+    background: #2c6e9e;
+    color: white;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    .somgram-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-link {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    .custom-page {
+        padding: 16px;
+    }
+    
+    .custom-page h1 {
+        font-size: 24px;
+    }
+}
