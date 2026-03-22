@@ -1,0 +1,22 @@
+// manifest.json - For installable PWA
+{
+  "name": "Somgram",
+  "short_name": "Somgram",
+  "description": "Custom Telegram client with API ID 16193790",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2c6e9e",
+  "background_color": "#0e1621",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/2c6e9e/ffffff?text=S",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/2c6e9e/ffffff?text=S",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
